@@ -441,6 +441,7 @@ export function buildStaticSite() {
     fs.rmSync(distDir, { recursive: true, force: true });
   }
   fs.mkdirSync(distDir, { recursive: true });
+  fs.writeFileSync(path.join(distDir, ".nojekyll"), "\n", "utf8");
 
   // Copy root index.html
   fs.copyFileSync(path.join(rootDir, "index.html"), path.join(distDir, "index.html"));
