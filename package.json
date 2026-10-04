@@ -1,0 +1,18 @@
+{
+  "name": "attiliopierelli",
+  "version": "1.0.0",
+  "description": "Attilio Pierelli artist portfolio website - Static version",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "preview": "node scripts/build-static.mjs --preview",
+    "start": "node scripts/build-static.mjs --preview"
+  },
+  "keywords": [
+    "portfolio",
+    "attiliopierelli",
+    "static-site"
+  ],
+  "author": "Stefano Carnà",
+  "license": "CC-BY-SA-3.0"
+}

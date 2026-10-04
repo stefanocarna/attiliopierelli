@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js" >
+	<head>
+		
+		<!-- Common head stuff -->
+		<!-- Metatag -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<!-- Page title -->
+<title>Attilio Pierelli</title>
+<!-- Page icon -->
+<link rel="icon" type="image/png" href="../assets/_common/img/favicon.png">
+
+<!--  Fonts  -->
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+
+<!-- Bootstrap 4 css -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- PhotoSwipe css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css">
+
+<!-- slick-carousel css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"> 
+<!-- slick-carousel gif -->
+<!-- https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif -->
+
+<!-- App css -->
+<link href="../assets/_app/css/layout.css" rel="stylesheet" />
+
+<!-- Fontawesome 5 icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+<!-- include php function -->
+
+	</head>
+
+	<body class="lozad decored" data-background-image="../assets/_app/img/bkg/u1.jpg">
+
+		<header>
+
+			<!-- MENU MENU MENU -->
+			<nav class="navbar navbar-expand-lg fixed-top navbar-custom" id='menu-section'>
+	<a class="navbar-brand" href="home.html">Attilio Pierelli</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fa fa-bars"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Vita
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="biografia.html">biografia</a>
+					<a class="dropdown-item" href="valutazione_estetica.html">valutazione estetica</a>
+					<a class="dropdown-item" href="esposizioni.html">esposizioni</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Arte
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="periodi.html">periodi di ricerca</a>
+					<a class="dropdown-item" href="superficie_cuspide.html">superficie a cuspide</a>
+					<a class="dropdown-item" href="ipercubo.html">ipercubo</a>
+					<a class="dropdown-item" href="test.html">T.E.S.T</a>
+					<a class="dropdown-item" href="nodi.html">nodi</a>
+					<a class="dropdown-item" href="chiesa_iperspaziale.html">chiesa iperspaziale</a>
+					<a class="dropdown-item" href="antologia_critica.html">antologia critica</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Archivio
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="galleria.html">galleria fotografica</a>
+					<a class="dropdown-item" href="articoli.html">articoli</a>
+					<a class="dropdown-item" href="dimensionalismo.html">dimensionalismo</a>
+					<a class="dropdown-item" href="museo.html">museo bomarzo</a>
+					<a class="dropdown-item" href="gioielli.html">gioielli</a>
+				</div>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="news.html">Eventi & News</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Pubblicazioni
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="bibliografia.html">bibliografia</a>
+					<a class="dropdown-item" href="emerografia.html">emerografia</a>
+					<a class="dropdown-item" href="sitografia.html">sitografia</a>
+					<a class="dropdown-item" href="videografia.html">videografia</a>
+				</div>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="mailto:info@attiliopierelli.it?Subject=Informazioni">
+				  Info
+				</a>
+			</li>
+
+		</ul>
+	</div>
+</nav>
+
+<!-- <div id="top-page" style="position: absolute; margin-top: -10%;" ></div>
+
+<a href="#top-page" class="go-top">
+	<i class="fa fa-angle-up"></i>
+</a> -->
+			<!-- MENU MENU MENU -->
+
+		</header>
+
+		<main>
+
+			<div class="container page ">
+				
+				<div class="row mb-5 justify-content-end">
+					<div class="col col-12 col-lg-auto">
+						<div class="card text-section">
+							 <div class="card-body">
+								<h1 class="title">valutazione estetica</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-5 justify-content-center">
+					<div class="col col-12 col-md-10 col-lg-8 col-xl-7">
+						<div class="text-cite">
+							<p>
+								Uno scienziato degno di questo nome, <br>
+								prova lavorando la stessa impressione di un artista; <br>
+								la gioia che gli dà il suo lavoro <br>
+								è altrettanto grande e della medesima natura<br>
+							</p>
+							<span class="text-cite-author">
+								Jules Henri Poincaré
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12">
+						<h2 class="chapter">premessa storica</h2>
+					</div>
+					<div class="col col-12">
+						<p>
+							All'inizio della seconda metà del Novecento, nel panorama artistico internazionale cominciano a vedersi i chiari sintomi di un profondo cambiamento. I protagonisti, i movimenti e gli elementi finora cardini iniziano ad apparire come i vecchi strumenti di un presente diventato ormai passato, e sembrano addirittura ostacolare quella pressante esigenza d’immersione totale dell’arte nella vita che si stava demarcando sempre più in quegli anni.<br>
+							Senza gerarchie restrittive, l’arte comincia così ad estendere a qualsiasi materiale la possibilità di creare forme, distaccandosi dalla tradizionale idea che tecnica e materiali impiegati forniscano di per sé un giudizio a priori circa il valore di un’opera e tendendo invece a penetrare attivamente nello spazio dell’osservatore avvalendosi di strumenti fino ad allora estranei al linguaggio artistico più tradizionale. Tale propensione, che raggiungerà una diffusione a livello internazionale negli anni Sessanta, porterà gli artisti a servirsi di ogni innovazione tecnico-materica del loro tempo e ad inserirla legittimamente nei processi lavorativi delle proprie espressioni poetiche, creando così "oggetti" difficilmente classificabili all’interno dei generi artistici convenzionali. In questa innovativa direzione, rivoluzionaria è stata soprattutto l’evoluzione della scultura e della concretizzazione del suo legame con la contemporaneità.<br>
+							In Italia, a partire dagli anni Sessanta, le poetiche parallele alla scultura si svilupparono secondo traiettorie discontinue, divenendo il più delle volte episodi isolati e di difficile ricostruzione evolutiva. Eppure, fu proprio grazie a questa conclamata non univocità che tali poetiche cominciarono a divenire fonte d’ispirazione e d’incoraggiamento per le nuove generazioni. L'incremento di voci e di esperienze così alternative e diversificate porterà a sua volta alla ri-scoperta dello Spazio nella totalità di tutte le sue accezioni possibili ed attraverso l’utilizzo di ogni tipologia di mezzi e “strumenti” donati dalla modernità. 
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12 col-lg-6 col-xl-4">
+						<div class="card p-2 border-0"><div class="thumb loading" style="max-width:768px; max-height:1024px; min-height: 128px;"><img class="card-img-top lozad thumb-image" src="../assets/_app/img/valutazione_estetica/thumbs/leacril.jpg" data-ssrc="../assets/_app/img/valutazione_estetica/dq/leacril.jpg" data-msrc="../assets/_app/img/valutazione_estetica/low/leacril.jpg" data-w="768" data-h="1024"/><span class="thumb-caption">Le sculture di Attilio Pierelli in un inserto pubblicitario della <i>Leacril</i> (anni 60')</span></div></div>
+					</div>
+					<div class="col col-12 col-lg-6 col-xl-8">
+						<p>
+							«Nel considerare le trasformazioni verificatesi nell’arte d’oggi non è possibile prescindere da un’occhiata, almeno, rivolta al mondo che ci circonda, all’attuale aspetto della nostra civiltà: come non tener conto della necessaria interdipendenza tra arte e industria, tra l’arte e la scienza, tra l’arte e la linguistica? Come pretendere che l’artista possa continuare a creare non tocco da quello che vede e sente di continuo attorno a sé e che per la maggior parte è costituito non già da elementi “naturali”, come nei tempi antichi, ma da elementi artificiali?»<span data-toggle="tooltip" data-html="true" title="<span class='author'>G. Dorfles</span>, <i>Ultime tendenze nell'arte d'oggi dall'informale al concettuale</i>, Milano, Feltrinelli Editore, 1973, p. 21."></span><br>
+							La tendenza, sempre più forte, verso la dimensione plastico-spaziale inizia ad andare di pari passo con una tendenza alla sintesi. Le opere cominciano a venir eseguite tramite l’impiego dei macchinari dell’industria oppure vengono destinate ad essere seriate come un prodotto industriale qualunque. Il repertorio artistico che viene creandosi va così a comporsi di elementi naturalistici artificiali, a metà strada fra civiltà dell’immagine e civiltà della tecnologia; improvvisa nuovi paesaggi e inedite dimensioni, costruendo quasi una «seconda natura».<span data-toggle="tooltip" data-html="true" title="<span class='author'>I. Tomassoni</span>, <i>Arte dopo il 1945</i>, Bologna, Cappelli Editore, 1971, p. 78."><b class="icon-note"></b></span>
+							Come avrebbe detto Lewis Mumford (1895 - 1982) nel suo monumentale scritto La città nella storia<span data-toggle="tooltip" data-html="true" title="<span class='author'>Cfr. R. Assunto</span>, <i>La città di Anfione e la città di Prometeo</i>, Milano, Jaca Book, 1984, p.72."><b class="icon-note"></b></span>, si cerca così di conciliare Prometeo (l’uomo della scienza e della tecnica) con Orfeo (colui che attraverso l’arte addomestica la natura). All’interno di questa nuova realtà l’arte però non viene vista come un tentativo di salvare il mondo dal fare alienante della tecnologia industriale o come un suggerimento di rivisitazione della stessa, bensì come una celebrazione della sua autosufficienza: il suo messaggio resta inalterato nel tempo nonostante il perpetuo cambiamento di forma, linguaggio, consistenza e, appunto, immagine.
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12 col-lg-6 col-xl-8">
+						<p>
+							Facendo convivere la dimensione delle idee con quella del pensiero, comincia a farsi strada nell’artista del tempo una nuova adesione alla ragione, e da un procedere per convinzioni si passa ad un procedere per tentativi. Non si tratta più di riproporre modelli canonici, né di imporre programmi o progetti indubitabili, ma di affermare una ragione nuova, diversa, che prosegue proprio perché continua a immaginare. E proprio immaginando azzarda - intuisce! - supera e dichiara l’instabilità del precostituito, facendo coesistere la determinazione con l’indeterminazione generata dalla complessità che ci circonda, ma che non per questo sceglie la trasversalità degli stili. Le dimensioni create dall’incertezza vengono affrontate con la disponibilità a modificare anche le proprie convinzioni senza che questo vada a significar il non aver alcuna sicurezza.
+							Si sceglie ora di proseguire lungo una determinata strada in maniera razionale, ma con la consapevolezza di non basarsi su verità certe. Si punta a moltiplicare la possibilità del vedere e del percepire, partendo dal presupposto che «guardare un’opera d’arte implichi sempre l’attivazione di un processo di apprendimento per tentativi che è al tempo stesso un processo di accumulazione del sapere, nonché la capacità di rispondere ai cambiamenti dell’ambiente modificando la propria personalità e aumentandone la complessità».<span data-toggle="tooltip" data-html="true" title="<span class='author'>S. Lux, Incantesimi</span>. <i>Scene d’arte e poesia a Bomarzo</i>, Viterbo, Museo Laboratorio delle Arti Contemporanee dell’Università degli Studi della Tuscia, 1995, p. 24."><b class="icon-note"></b></span>
+							Ragione e azzardo divennero dunque le direttrici determinanti del lavoro di una precisa area dell’esperienza artistica di quel periodo a cavallo tra gli anni Sessanta e Settanta del Novecento, periodo in cui l’opera d’arte non chiedeva più un’attenzione fondata su regole, ma una percezione rivelatrice di sé stessa, nel dominio della propria sensibilità. Tra gli artisti italiani che percorreranno questa direzione ci sarà - anche e soprattutto - Attilio Pierelli, che farà parte di quella linea più avanzata, rappresentativa ed innovatrice della scultura italiana del secondo Novecento.
+						</p>
+					</div>
+					<div class="col col-12 col-lg-6 col-xl-4">
+						<div class="card p-2 border-0"><div class="thumb loading" style="max-width:680px; max-height:906px; min-height: 128px;"><img class="card-img-top lozad thumb-image" src="../assets/_app/img/valutazione_estetica/thumbs/space-age.jpg" data-ssrc="../assets/_app/img/valutazione_estetica/dq/space-age.jpg" data-msrc="../assets/_app/img/valutazione_estetica/low/space-age.jpg" data-w="680" data-h="906"/><span class="thumb-caption">Progetto del monumento <i>All’Era Spaziale</i> di Attilio Pierelli Roma, 1976</span></div></div>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12">
+						<h2 class="chapter">una poetica tra arte e scienza</h2>
+					</div>
+					<div class="col col-12">
+						<p>
+							«Forse la scultura, più di tutte le arti, ha dato la sensazione dell’evoluzione in atto, sotto certi aspetti oscura e misteriosa, del potere dell’uomo sulla materia per la capacità che gli è stata data di spalancare nuovi campi alla conoscenza. Ma il potere fisico [...] non è mai disgiunto da quello dell’uomo di aprire l’angolazione all’infinito della sua fantasia, quando dal piano della conoscenza e della tecnica passa a quello estetico mediante una illuminazione a lampi improvvisi di intuizione».<span data-toggle="tooltip" data-html="true" title="<span class='author'>G. Perocco</span>, <i>IX Quadriennale nazionale d'arte di Roma</i>, Roma, De Luca Editore, 1965, p. 55."><b class="icon-note"></b></span><br>
+							L’arte di Attilio Pierelli fu, per certi versi, un’arte antirazionale: fatta di visioni improvvise e di pure illuminazioni, ma che trovò nei simboli e nelle teorie scientifici il suo massimo grado di espressione. La ricerca condotta per il raggiungimento di tali obiettivi fu lunga e multidisciplinare, ma pur sempre ispirata dalla fondamentale “costante” della sua primitiva intuizione. La sua opera è stata la prova evidente che il rapporto tra arte e scienza non è soltanto possibile ma, soprattutto, necessario per continuare a tendere verso la conoscenza delle molteplici “dimensioni” dell’esistenza. <br>
+							Pierelli fu un vero fuoriclasse dell’arte scultorea internazionale e le sue opere lo dimostrano in maniera tangibile: immagini regolari ma contemporaneamente soggette ad una persistente trasformazione, sculture auto-musicali che variano il loro suono in base all’ambiente, alla prospettiva dalla quale vengono osservate e all’angolazione della luce che le colpisce; sono tutti oggetti che raccontano - ciascuno in maniera diversa - quella che fu l’originale intuizione del loro creatore. L’artista riuscì ad accostare, paragonare ed infine combinare il rigore scientifico con la capacità dell’immaginazione, offrendone poi la sintesi completa all’osservatore. Egli trovò nella scultura lo strumento di indagine ideale per la sperimentazione, in forma concreta, delle innovazioni generate dalla fisica moderna e riuscì quindi ad ottenere risultati plastici inediti sia nella visualizzazione della quarta dimensione geometrica, che nel campo delle geometrie curve non euclidee che sulle conoscenze topologiche riguardanti le superfici estremali. <br>
+							Con le sue sculture, Pierelli sondò un’infinità di dimensioni, e trasformò un materiale sterile come l’acciaio in un lucido e fecondo recettore di segni, convertendolo a icona dell’infinità del tempo e dello spazio e  mettendoci così illusivamente in contatto con il divenire della nostra dimensione e della sua moltiplicazione speculare. Ma la cosa più straordinaria in assoluto è che l’artista riuscì in tale impresa senza il bisogno di ricorrere ad alcun progetto, ma bensí concretizzando visivamente cose e fenomeni che, fino ad allora, gli scienziati non ritenevano rappresentabili se non con mezzi e formule scientifiche: il perno attorno al quale ruotò tutta  la sua indagine fu l’ iperspazio che, come sappiamo, non può essere percepito, ma soltanto immaginato "realizzato". Le sue “intuizioni materiche”, generate da concetti geometrici, cosmologici, fisici e metafisici, ebbero dunque come obiettivo principale la scoperta e la conoscenza di realtà spaziali “altre”. <br>
+						</p>
+					</div>
+				</div>
+				<div class="row text-section">
+					<div class="col col-12 justify-content-center">
+						<div class="card p-2 border-0"><div class="thumb loading" style="max-width:1430px; max-height:804px; min-height: 128px;"><img class="card-img-top lozad thumb-image" src="../assets/_app/img/valutazione_estetica/thumbs/hypercube-flex.jpg" data-ssrc="../assets/_app/img/valutazione_estetica/dq/hypercube-flex.jpg" data-msrc="../assets/_app/img/valutazione_estetica/low/hypercube-flex.jpg" data-w="1430" data-h="804"/><span class="thumb-caption">La scultura <i>Ipercubo</i> di Attilio Pierelli in una foto di Pino Abbrescia</span></div></div>
+					</div>
+					<div class="col col-12">
+						<p>
+							L’intento di Pierelli fu quello di provare ad avvicinare l’umanità alla conoscenza totale di questo mondo, che rimane essenzialmente ancora puro fenomeno, apparenza inconoscibile nella propria verità. Ed essendo la mente umana, per lo scultore,  il vero “maestro” dell’uomo,  unico capace di  trascendere le tre dimensioni, ogni volta che concepiva un’opera, si ripresentava il problema di come renderla comprensibile non soltanto da chi avesse una preparazione artistica e scientifica, ma, per quanto la cosa potesse risultare ardua e complessa, da chiunque fosse interessato anche solo ad osservarla, attraverso quello che egli chiamava «plesso solare»<span data-toggle="tooltip" data-html="true" title="<span class='author'>V. Caliendo, Attilio Pierelli</span>. <i>Intervista</i>, in «Bollettino Telematico dell'Arte», 11 luglio 2000, n. 65 (23 marzo 1995)"><b class="icon-note"></b></span>, ovvero  l'emozione che si prova nel vedere un qualcosa d'istinto, senza logica alcuna. <br>
+							Egli si servì delle sue creazioni per giungere alla conoscenza di nuove dimensioni e per incitare l’osservatore a fare lo stesso, rendendo l’immaginazione parte integrante della logica e mettendo in contatto diretto tutte le infinite e possibili relazioni che intercorrono tra lo sguardo e lo spazio. Riuscendo ad unire le conoscenze scientifiche alla sensibilità artistica, Pierelli dimostrò di possedere un ingegno pari a quello dei più grandi maestri dell'Umanesimo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+		<!-- FOOTER FOOTER -->
+		<footer><p class="copyright"><i>Il testo di questa pagina è distribuito sotto licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Unported</a></i></p></footer><style>.copyright {  bottom: 0; position: relative; color: white; font-size: 1rem; display: block;  text-align: center; background: rgba(0, 0, 0, .9); padding-top: .25rem; padding-bottom: .25rem;  margin-bottom: 0; margin-top: 1rem; width: 100%; font-family: Segoe UI;}</style>
+<!-- Bootstrap 4 -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Bootstrap 4 -->
+
+<!-- slick-carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<!-- PhotoSwipe -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js
+"></script> 
+
+<!-- Lozad - lazy loading library -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script type="text/javascript">
+	// Asynchronous loading script init 
+	const observer = lozad('.lozad', {
+		loaded: function(el) {
+			if (this.callbackLoaded) this.callbackLoaded()
+
+			el.parentNode.classList.remove('loading');
+			el.parentNode.classList.add('loaded');
+		}
+	});
+	observer.observe();
+
+	// Bootstrap tooltip init
+	$('[data-toggle="tooltip"]').tooltip();
+</script>
+
+<!-- Init PhotoSwipe -->
+<script type="text/javascript">
+
+	// TODO Must be optimized!
+
+	// gallery element
+	var pswpElement = document.querySelectorAll('.pswp')[0];
+
+	// all images
+	let images = $('.thumb-image');
+
+	// pseudo-array
+	let items = [];
+	let id = 0;
+
+	// Build pseudo-array
+	for (let e of images) {
+		let obj = $(e);
+
+		obj.data('id', id++);
+
+		items.push({
+			src: obj.data('ssrc'),
+			msrc: obj.data('msrc'),
+			w: obj.data('w'),
+			h: obj.data('h'),
+			title: obj.next().html(),
+			id: id,
+		});
+
+	}
+
+	var assignClick = function () {
+		// remove listners
+		images.unbind('click tap')
+
+		// assign listener
+		images.on('click tap', function () {
+
+			var id = $(this).data('id')
+
+			if (!id) {
+				for (let i = 0; i < images.length; ++i) {
+					if (images[i].src == this.src) {
+						id = i
+						break
+					}
+				}
+			}
+
+			if (!id) id = 0
+
+			gallery = new PhotoSwipe(
+				pswpElement, 
+				PhotoSwipeUI_Default, 
+				items, 
+				{index: id}
+			).init();
+		});
+	}
+
+	assignClick()
+
+</script>
+
+<!-- Init slide-carousel -->
+<script type="text/javascript">
+  $(document).ready(function(){
+
+  	let s2 = $('.slider2')
+  	let s3 = $('.slider')
+  	let s4 = $('.slider4')
+
+  	s2.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+  	s3.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+  	s4.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+
+	  s2.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+		s3.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+		s4.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+
+  	if (s2.length > 0) {
+  		s2.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 2,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    // {
+			    //   breakpoint: 1024,
+			    //   settings: {
+			    //     slidesToShow: 2,
+			    //     slidesToScroll: 1,
+			    //   }
+			    // },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+  	}
+
+  	if (s4.length > 0) {
+			s4.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 4,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+		}
+  	
+		if (s3.length > 0) {
+    	s3.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+		}
+	});
+</script>
+		<!-- FOOTER FOOTER -->
+
+	</body>
+</html>

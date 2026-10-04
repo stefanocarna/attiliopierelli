@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js" >
+	<head>
+
+		<!-- Common head stuff -->
+		<!-- Metatag -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<!-- Page title -->
+<title>Attilio Pierelli</title>
+<!-- Page icon -->
+<link rel="icon" type="image/png" href="../assets/_common/img/favicon.png">
+
+<!--  Fonts  -->
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+
+<!-- Bootstrap 4 css -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- PhotoSwipe css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css">
+
+<!-- slick-carousel css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"> 
+<!-- slick-carousel gif -->
+<!-- https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif -->
+
+<!-- App css -->
+<link href="../assets/_app/css/layout.css" rel="stylesheet" />
+
+<!-- Fontawesome 5 icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+<!-- include php function -->
+
+	</head>
+	
+	<body class="lozad decored" data-background-image="../assets/_app/img/bkg/u3.jpg">
+
+		<header>
+
+			<!-- MENU MENU MENU -->
+			<nav class="navbar navbar-expand-lg fixed-top navbar-custom" id='menu-section'>
+	<a class="navbar-brand" href="home.html">Attilio Pierelli</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fa fa-bars"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Vita
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="biografia.html">biografia</a>
+					<a class="dropdown-item" href="valutazione_estetica.html">valutazione estetica</a>
+					<a class="dropdown-item" href="esposizioni.html">esposizioni</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Arte
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="periodi.html">periodi di ricerca</a>
+					<a class="dropdown-item" href="superficie_cuspide.html">superficie a cuspide</a>
+					<a class="dropdown-item" href="ipercubo.html">ipercubo</a>
+					<a class="dropdown-item" href="test.html">T.E.S.T</a>
+					<a class="dropdown-item" href="nodi.html">nodi</a>
+					<a class="dropdown-item" href="chiesa_iperspaziale.html">chiesa iperspaziale</a>
+					<a class="dropdown-item" href="antologia_critica.html">antologia critica</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Archivio
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="galleria.html">galleria fotografica</a>
+					<a class="dropdown-item" href="articoli.html">articoli</a>
+					<a class="dropdown-item" href="dimensionalismo.html">dimensionalismo</a>
+					<a class="dropdown-item" href="museo.html">museo bomarzo</a>
+					<a class="dropdown-item" href="gioielli.html">gioielli</a>
+				</div>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="news.html">Eventi & News</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Pubblicazioni
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="bibliografia.html">bibliografia</a>
+					<a class="dropdown-item" href="emerografia.html">emerografia</a>
+					<a class="dropdown-item" href="sitografia.html">sitografia</a>
+					<a class="dropdown-item" href="videografia.html">videografia</a>
+				</div>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="mailto:info@attiliopierelli.it?Subject=Informazioni">
+				  Info
+				</a>
+			</li>
+
+		</ul>
+	</div>
+</nav>
+
+<!-- <div id="top-page" style="position: absolute; margin-top: -10%;" ></div>
+
+<a href="#top-page" class="go-top">
+	<i class="fa fa-angle-up"></i>
+</a> -->
+			<!-- MENU MENU MENU -->
+
+		</header>
+
+		<main>
+
+			<div class="container page ">
+				
+				<div class="row mb-5 justify-content-center">
+					<div class="col col-12 col-lg-auto">
+						<div class="card text-section">
+							 <div class="card-body">
+								<h1 class="title">dimensionalismo<br>arte avanzata interdisciplinare</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12">
+						<p>
+							La ricerca interdisciplinare, volta ad approfondire la conoscenza, è uno degli eventi più significativi dei nostri giorni. Quando in essa convergono arte e scienza i rapporti che ne intercorrono sono particolarmente importanti. <br>
+							Da anni Pierelli lavora su questo tema, collaborando con alcuni tra i più validi ricercatori scientifici. <br>
+							Ne sono testimonianza sue opere quali: <br>
+							<a href="superficie_cuspide.html">Piastra Inox</a> (o superficie a cuspide) del 1965. La cui struttura verte sulla singolarità, si ritroverà poco dopo il '65 tra i modelli geometrici della teoria delle catastrofi di Renè Thom; <br>
+							<a href="ipercubo.html">Ipercubo</a> dello spazio quadrimensionale, realizzato nel 1974 in collaborazione con Giuseppe Arcidiacono ed esposto alla galleria dell'Obelisco in occasione della mostra De Mathematica; <br>
+							<a href="nodi.html">Nodi</a>, sculture topologiche, superfici estremali, sono stati realizzati in collaborazione con Franco Ghione ed esposti alla triennale di Milano nel 1986; <br>
+							<a href="test.html">T.E.S.T.</a>(Trascinamento di Eventi Spazio-Temporali), del 1985/86, esposta alla 42° Biennale di Venezia, sul tema "Arte e Scienza" destinata alla galleria d'arte moderna di Roma; in questo caso l'artista ha rielaborato la forma della scultura ispirandosi ai buchi neri (black holes) teorizzati e scoperti dall'astrofisico Remo Ruffini negli Stati Uniti, rappresentati secondo un modello ottenuto al computer insieme ai suoi collaboratori all'università di Roma. <br>
+							Ed altre opere ancora.
+						</p>
+					</div>
+				</div>
+
+				<div class="row my-5 justify-content-center">
+					<div class="col col-12 col-lg-auto">
+						<div class="card text-section">
+							 <div class="card-body">
+							 	<h6>Partendo dall'esperienza del suo lavoro Pierelli si è fatto promotore di un nuovo movimento artistico il</h6>
+								<h2 class="title">dimensionalismo</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-4 text-section">
+					<div class="col col-12">
+						<table class="table">
+
+							<tr>
+								<th class="year">1</th>
+								<th> il <b>DIMENSIONALISMO</b> mira  a riannodare i fili di un comune discorso di conoscenza, iniziato nelle cattedrali gotiche ed esploso in Italia nel '400;</th>
+							</tr>
+
+							<tr>
+								<th class="year">2</th>
+								<th> il <b>DIMENSIONALISMO</b> è un movimento intellettuale artistico che intende superare la barriera delle tre dimensioni dello spazio; a tale scopo, si propone di avviare una revisione dei principi e della metodologia dell'arte;</th>
+							</tr>
+
+							<tr>
+								<th class="year">3</th>
+								<th> l'artista del nuovo corso è principalmente un <i>Uomo di pensiero</i> che indaga gli spazi con dimensioni maggiori alla terza. Nelle sue realizzazioni egli opera, come ogni artista, tramite l'intuizione, ma si vale anche di strumenti matematici e della scienza in generale;</th>
+							</tr>
+
+							<tr>
+								<th class="year">4</th>
+								<th>finché l'uomo è stato ancorato all'esplorazione dello spazio tridimensionale come unica ed esclusiva realtà esistente, non ha avuto alcuna necessità di definire, o ri-definire, il termine <i>dimensione</i>;</th>
+							</tr>
+
+							<tr>
+								<th class="year">5</th>
+								<th>il pensiero <b>DIMENSIONALISTA</b>, scoprendo e percorrendo mentalmente gli iperspazi, e approfondendo le proprietà topologiche delle figure geometriche, ha inevitabilmente ampliato il concetto di <i>dimensione</i>, conferendogli una valenza superiore, fino a farlo diventare un fenomeno nuovo, differente da quello identificato col termine <i>tridimensionale</i>: nel senso che ogni iperspazio ha proprie caratteristiche specifiche, diverse sia da quello precedente che da quello successivo;</th>
+							</tr>
+
+							<tr>
+								<th class="year">6</th>
+								<th>la <i>conoscenza</i>, o visione del mondo ( spesso impropriamente sintetizzata o confusa con la parola scienza) come chiave evolutiva dell'umanità, è alla base del programma <b>DIMENSIONALISTA</b> e vi svolge un ruolo propulsivo insostituibile;</th>
+							</tr>
+
+							<tr>
+								<th class="year">7</th>
+								<th>nell'Umanesimo e nel Rinascimento la <i>conoscenza</i> si sviluppò in gran parte attraverso l'arte. Le prime importanti scoperte sia scientifiche che estetiche, vennero compiute dagli artisti; corona questo periodo Leonardo, che tracciò indelebilmente la via che nel futuro gli artisti "avrebbero dovuto" seguire per fondere sapientemente, e consapevolmente, l'analisi conoscitivo-scientifica con l'emozionalità e l'intuizione artistica.</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="row text-section">
+					
+					<div class="col col-12">
+						<p>	Partendo dall'esperienza del suo lavoro Pierelli si è fatto promotore di un nuovo movimento artistico il</p>
+					</div>
+					
+					<div class="col col-12">
+						<table class="table mb-0">
+
+							<tr>
+								<th> <span class="author">Pino ABBRESCIA</span> </th>
+								<th> Esperto in arti visuali - Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Federico AMENDOLA</span> </th>
+								<th> Musicista – Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Giuseppe ARCIDIACONO</span> </th>
+								<th> Professore di Matematica Superiore – Università di Perugia</th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Thomas BANCHOFF</span> </th>
+								<th> Brown University Providence</th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Harriett BRISSON</span> </th>
+								<th> Rhode Island School of Design Providence, RI, USA</th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Michele EMMER</span> </th>
+								<th> Professore di Matematica, Università ‘La Sapienza’ – Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Franco GHIONE</span> </th>
+								<th> Professore di Matematica, Uniroma 2 ‘Tor Vergata’ – Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Linda DALRYMPLE HENDERSON</span> </th>
+								<th> Dept.of Art and Art History, University of Texas, Austin, Texas, US </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Anna IMPONENTE</span> </th>
+								<th> Galleria Nazionale d’Arte Moderna – Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Renato PEDIO</span> </th>
+								<th> Poeta e critico letterario – Roma </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Tullio REGGE</span> </th>
+								<th> Professore di Fisica, Università di Torino, Torino </th>
+							</tr>
+
+							<tr>
+								<th> <span class="author">Remo RUFFINI</span> </th>
+								<th> Professore di Astrofisica, Università ‘La Sapienza’, Roma </th>
+							</tr>
+
+						</table>
+					</div>
+
+					<div class="col col-12">
+						<p>a partecipare nei giorni 9 e 10 Ottobre 1987 alla fondazione del <span class="h6">DIMENSIONALISMO</span></p>
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+		<!-- FOOTER FOOTER -->
+		<footer><p class="copyright"><i>Il testo di questa pagina è distribuito sotto licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Unported</a></i></p></footer><style>.copyright {  bottom: 0; position: relative; color: white; font-size: 1rem; display: block;  text-align: center; background: rgba(0, 0, 0, .9); padding-top: .25rem; padding-bottom: .25rem;  margin-bottom: 0; margin-top: 1rem; width: 100%; font-family: Segoe UI;}</style>
+<!-- Bootstrap 4 -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Bootstrap 4 -->
+
+<!-- slick-carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<!-- PhotoSwipe -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js
+"></script> 
+
+<!-- Lozad - lazy loading library -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script type="text/javascript">
+	// Asynchronous loading script init 
+	const observer = lozad('.lozad', {
+		loaded: function(el) {
+			if (this.callbackLoaded) this.callbackLoaded()
+
+			el.parentNode.classList.remove('loading');
+			el.parentNode.classList.add('loaded');
+		}
+	});
+	observer.observe();
+
+	// Bootstrap tooltip init
+	$('[data-toggle="tooltip"]').tooltip();
+</script>
+
+<!-- Init PhotoSwipe -->
+<script type="text/javascript">
+
+	// TODO Must be optimized!
+
+	// gallery element
+	var pswpElement = document.querySelectorAll('.pswp')[0];
+
+	// all images
+	let images = $('.thumb-image');
+
+	// pseudo-array
+	let items = [];
+	let id = 0;
+
+	// Build pseudo-array
+	for (let e of images) {
+		let obj = $(e);
+
+		obj.data('id', id++);
+
+		items.push({
+			src: obj.data('ssrc'),
+			msrc: obj.data('msrc'),
+			w: obj.data('w'),
+			h: obj.data('h'),
+			title: obj.next().html(),
+			id: id,
+		});
+
+	}
+
+	var assignClick = function () {
+		// remove listners
+		images.unbind('click tap')
+
+		// assign listener
+		images.on('click tap', function () {
+
+			var id = $(this).data('id')
+
+			if (!id) {
+				for (let i = 0; i < images.length; ++i) {
+					if (images[i].src == this.src) {
+						id = i
+						break
+					}
+				}
+			}
+
+			if (!id) id = 0
+
+			gallery = new PhotoSwipe(
+				pswpElement, 
+				PhotoSwipeUI_Default, 
+				items, 
+				{index: id}
+			).init();
+		});
+	}
+
+	assignClick()
+
+</script>
+
+<!-- Init slide-carousel -->
+<script type="text/javascript">
+  $(document).ready(function(){
+
+  	let s2 = $('.slider2')
+  	let s3 = $('.slider')
+  	let s4 = $('.slider4')
+
+  	s2.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+  	s3.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+  	s4.on('init', function(event, slick, direction){
+  		assignClick()
+		});
+
+	  s2.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+		s3.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+		s4.on('breakpoint', function(event, slick, direction){
+		  assignClick()
+		});
+
+  	if (s2.length > 0) {
+  		s2.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 2,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    // {
+			    //   breakpoint: 1024,
+			    //   settings: {
+			    //     slidesToShow: 2,
+			    //     slidesToScroll: 1,
+			    //   }
+			    // },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+  	}
+
+  	if (s4.length > 0) {
+			s4.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 4,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+		}
+  	
+		if (s3.length > 0) {
+    	s3.slick({
+			  dots: true,
+			  infinite: true,
+			  centerMode: true,
+			  speed: 300,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  lazyLoad: 'progressive',
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+		    ]
+			});
+		}
+	});
+</script>
+		<!-- FOOTER FOOTER -->
+
+	</body>
+</html>
