@@ -1,0 +1,377 @@
+/* BODY */
+body {
+	font-family: Segoe UI;
+	padding-top: 3.125rem;
+}
+
+.decored {
+	background-color: lightgray;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+.card-news  {
+	margin-bottom: 2em;
+}
+
+.news-old {
+	transform: scale(.9);
+	opacity: .6;
+}
+
+/* MENU */
+.navbar {
+	font-family: Oswald;
+}
+.navbar-custom {
+	background-color: #252525;
+	/*background-image: -webkit-radial-gradient(50% 50%, 200% 50%, rgb(80, 80, 80) 5%, rgb(50, 50, 50) 30%, rgb(30, 30, 30) 100%);*/
+	border-bottom: 2px solid firebrick/*#ffda8e*/;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand {
+	color: firebrick;
+}
+.dropdown-menu {
+	background-color: #252525;
+}
+.dropdown-item,
+.navbar-toggler,
+.navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-brand:hover {
+	color: white/*#ffda8e*/;
+}
+.dropdown-item:hover {
+	color: white/*#222*/;
+	background: firebrick/*#ffda8e*/;	
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: firebrick/*white*/;
+}
+/* CONTAINER */
+.container {
+	margin-bottom: 1em;
+	padding-top: 3em;
+	padding-bottom: 16px;
+	border-radius: 0 0 0.5em 0.5em;
+	background: rgba(255, 255, 255, 0.8);
+	background-image: url('../img/bkg/bgd.png');
+}
+
+
+/* PAGE */
+.page .title,
+.page .chapter {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: firebrick;
+}
+
+.text-section {
+	/*padding: 15px;*/
+	text-align: justify;
+	box-shadow: 5px 6px 4px rgba(0,0,0,0.16),0 0 10px 0 rgba(0,0,0,0.12) !important;
+	background-color: white;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.text-section p {
+	margin-bottom: 0;
+}
+
+.text-section .col {
+	display: flex;
+	align-items: center;
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+
+.text-section .year {
+	background: rgba(109, 129, 156, 0);
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.icon-note:after,
+.author {
+	color: firebrick;
+}
+
+.text-cite:before, .text-cite:after {
+	width: 50px;
+	height: 50px;
+	background: black;
+	color: #ffda8e;
+	text-align: center;
+	line-height: 50px !important;
+	font-size: 25px !important;
+	position: absolute;
+
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+
+}
+
+.text-cite:before {
+	top: 0;
+	left: 15px;
+	content: "\f10d";
+	box-shadow: 5px 6px 4px rgba(0,0,0,0.16),0 0 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.text-cite:after {
+	bottom: 0;
+	right: 15px;
+	content: "\f10e";
+	box-shadow: -5px -6px 4px rgba(0,0,0,0.16),0 0 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.text-cite {
+	background-color: white;
+	padding: 50px 60px;
+	border: 6px solid black;
+	/*color: white;*/
+	text-align: center;
+	box-shadow: 5px 6px 4px rgba(0,0,0,0.16),0 0 10px 0 rgba(0,0,0,0.12) !important;
+
+	width: 100%;
+	height: 100%;
+}
+
+.text-cite-author {
+	float: left;
+	margin-top: 1em;
+	margin-left: -30px;
+	color: firebrick;
+	/*padding-bottom: -1em;*/
+}
+
+.text-cite > p {
+	margin-bottom: 0;
+}
+
+.icon-note:after {
+	vertical-align: super;
+    font-size: smaller;
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f27a";
+}
+
+a.icon-note:after {
+	content: "\f0c1";
+}
+
+/* Bootstrap 4 tabs */
+.nav-tabs .nav-link {
+	background-color: lightgray;
+	border-color: black;
+	border-bottom: none;
+	outline: none;
+	padding-left: 32px;
+	padding-right: 32px;
+	border-radius: 32px 0 0 0; 
+}
+
+.nav-tabs .nav-link {
+	color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+	color: firebrick;
+}
+
+.fade:not(.show) {
+	display: none;
+}
+
+
+/* GENERAL */
+a {
+	color: firebrick;
+}
+
+
+/* IMAGE FULL */
+#imageDetailModal {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.thumb {
+	position: relative;
+	text-align: center;
+}
+
+.thumb.loaded {
+	width: auto;
+	height: auto;
+}
+
+.thumb.loading {
+	background-color: lightgray;
+	width: 100%;
+	height: 100%;
+}
+
+.thumb.loading:before {
+	font-family: "Font Awesome 5 Free";
+	position: relative;
+	content: "\f03e";
+	font-size: 3rem;
+	line-height: 3rem;
+	top: calc(50% - 1.5rem);
+	left: calc(50% - 1.5rem);
+	color: darkgray;
+	position: absolute;
+	z-index: -1;
+}
+
+.thumb-image {
+	box-shadow: 5px 5px 8px rgba(35, 0, 0, 0.5);
+	width: 100%;
+}
+
+/*.thumb:hover > .thumb-caption {
+	transform: scale(1);
+	opacity: 1;
+}*/
+
+.thumb-modal-caption,
+.thumb-caption {
+	background-color: rgba(0, 0, 0, 0.8);
+	bottom: 0px;
+	color: white;
+	z-index: 1;
+	font-size: 1.2em;
+	left: 0px;
+	padding: 10px 15px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	display: none;
+	transition: all .5s ease-in-out;
+}
+
+.thumb-caption .where {
+	float: right;
+}
+
+
+/* Customize PhotoSwipe caption*/
+.pswp__ui--fit .pswp__caption, .pswp__caption {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pswp__caption__center {
+	font-size: 1.1rem;
+	line-height: 1.1rem;
+	max-width: 756px;
+	text-align: center;
+}
+
+/************************/
+/*       articles       */
+/************************/
+
+.article figcaption {
+	color: black;
+}
+
+.article-title {
+	font-family: Oswald;
+	font-size: 1.2em;
+	color: firebrick;
+}
+
+.article-author {
+	text-align: right;
+	font-size: 1.1em;
+}
+
+
+/************************/
+/*     end articles     */
+/************************/
+
+
+/************************/
+/* slick-carousel theme */
+/************************/
+/* css relative to prev and next button of corousel */
+
+.slick-next {
+	right: 0;
+	z-index: 6;
+}
+
+.slick-prev {
+	left: 0;
+	z-index: 6;
+}
+
+.slick-prev::before, .slick-next::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: #ffda8e;
+	/*content: '\f054';*/
+}
+
+.slick-prev::before {
+	content: '\f137';
+}
+
+.slick-next::before {
+	content: '\f138';
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-tabs .nav-link {
+		border-bottom: none;
+		outline: none;
+		padding-left: 16px;
+		padding-right: 16px;
+		border-radius: 5px; 
+	}
+
+	.thumb.loaded {
+		width: 100%;
+	}
+/*	.thumb-modal-content {
+		padding: 0.5em;
+		width: 100%;
+		object-fit: contain;
+	}*/
+}
+
+/* Bootstrap 4 - Small Screen Size */
+@media only screen and (min-width: 576px){
+}
+
+/* Bootstrap 4 - Medium Screen Size */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Bootstrap 4 - Large Screen Size */
+@media only screen and (min-width: 992px){
+	.text-section .col {
+		padding: 2rem;
+	}
+}
+
+/* Bootstrap 4 - Extra large Screen Size */
+@media only screen and (min-width: 1200px){
+	.text-section .col {
+		padding: 2rem;
+	}
+}

@@ -1,0 +1,126 @@
+/* ---------- Google Fonts ---------- */
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+/*@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);*/
+/*@import url(https://fonts.googleapis.com/css?family=Indie+Flower);*/
+
+
+
+
+html {
+	-webkit-font-smoothing:antialiased;
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#u1, #u2, #u3, #u4, #u5, #u6, #u7, #u8, #e1, #e2, #e3, #e4, #e5, #e6 {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+#u1 {
+	/*background-image: url("../img/bkg/u1.jpg");*/
+}
+
+#u2 {
+	background-image: url("../img/bkg/a4.jpg");
+}
+
+#u3 {
+	background-image: url("../img/bkg/u3.jpg");
+}
+
+#u4 {
+	background-image: url("../img/bkg/u4.jpg");
+}
+
+#u5 {
+	background-image: url("../img/bkg/u5.jpg");
+}
+
+#u6 {
+	background-image: url("../img/bkg/u6.jpg");
+}
+
+#u7 {
+	background-image: url("../img/bkg/u7.jpg");
+}
+
+#u8 {
+	background-image: url("../img/bkg/u8.jpg");
+}
+
+/* opere */
+
+#e1 {
+	background-image: url("../img/bkg/e1.jpg");
+}
+
+#e2 {
+	background-image: url("../img/bkg/e2.jpg");
+}
+
+#e3 {
+	background-image: url("../img/bkg/e3.jpg");
+}
+
+#e4 {
+	background-image: url("../img/bkg/e4.jpg");
+}
+
+#e5 {
+	background-image: url("../img/bkg/e5.jpg");
+}
+
+#e6 {
+	background-image: url("../img/bkg/e6.jpg");
+}
+
+body {
+	font-family: 'EB Garamond', sans-serif;
+	font-size: 100%;
+	/*line-height: 1.42857143;*/
+	color: #333;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	/*background: firebrick;*/
+	/*background: #ffda8e;*/
+	background: rgb(43,44,50);
+	background: radial-gradient(circle, rgba(43,44,50,1) 0%, rgba(184,184,184,1) 100%); 
+}
+
+
+footer {
+	color: white;
+	text-align: center;
+}
+
+
+/* INIT tooltip section */
+/* This css refers to _app/tooltip/Zebra_tooltip */
+.Zebra_Tooltip {
+	/*background-color: green;*/
+}
+
+.Zebra_Tooltip_Message {
+	border: red solid 0.1em;
+	font-size: 1.2em;
+}
+
+.tip {
+	text-decoration: none;
+	cursor: help;
+}
+
+.tip sup {
+	color: red;
+}
+
+/* END tooltip section 

@@ -1,0 +1,56 @@
+#b11 {
+	margin-top: 1.6em;
+}
+
+#b11 img {
+	max-width: 60%;
+	max-height: 60%;	
+}
+
+#doc-video {
+	margin-top: 3em;
+}
+
+/*#b02 {
+	margin-top: 1.8em;
+}
+
+#img2,
+#img5 {
+	margin-top: 1.8em;
+}
+
+#img3,
+#img4 {
+	margin-top: 1.6em;
+}*/
+
+
+/* decreasigng the menu font size */
+@media (min-width: 961px) and (max-width: 1200px) {
+	/* this works for all the images into the current html */
+	.r img,
+	.l img {
+		max-width: 25em;
+		max-height: 25em;
+	}
+
+	/* set the size of the img caption */
+	.big .overtext,
+	.landscape .overtext {
+		width: 22em;		
+	}
+
+	.portrait .overtext {
+		width: 16em;
+	}
+
+}
+
+
+/* mobile menu */
+@media (max-width: 960px) {
+
+
+}
+

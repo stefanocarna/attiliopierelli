@@ -1,0 +1,134 @@
+#btn-it {
+  float: right;
+  margin-right: 20%;
+}
+
+#btn-en {
+  float: left;
+  margin-left: 20%; 
+}
+
+.button {
+  min-width: 8em;
+  max-width: 12em;
+
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Courier';
+  font-size: 1.2em;
+  font-weight: bold;
+
+  text-decoration: none;
+
+  display: block;
+  margin: 1em;
+  padding: 0.7em 1em;
+
+  position: relative;
+  z-index: 1;
+
+  border-radius: 0.3em;
+  border: 0.1em solid;
+
+  opacity: 0;
+
+  background: black;
+  color: silver;
+  overflow: hidden;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button > span {
+  vertical-align: middle;
+}
+
+.button--aylen::before,
+.button--aylen::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button--aylen::before {
+  background: rgba(255, 255, 255, 0.3);
+}
+.button--aylen::after {
+  background: rgba(255, 255, 255, 0.5);
+}
+.button--aylen:hover {
+  color: black;
+}
+.button--aylen:hover::before,
+.button--aylen:hover::after {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.button--aylen:hover::after {
+  -webkit-transition-delay: 0.175s;
+  transition-delay: 0.175s;
+}
+
+.tile {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  opacity:0;
+  text-align: center;
+}
+
+.tile p {
+  color: silver;
+  font-family: Courier;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#btn-en, #btn-it {
+    animation: fade-in  1.5s ;
+    animation-delay: 2.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* mobile menu */
+@media (min-width: 768px) and (max-width: 1000px) and (orientation:portrait) {
+
+  .tile p {
+    font-size: 4em;
+  }
+
+  .button {
+    min-width: 10em;
+    max-width: 14em;
+    font-size: 1.8em;
+  }
+
+  #btn-it,
+  #btn-en {
+    float: inherit;
+    /*margin-right: 20%;*/
+    margin: 1em auto;
+  }
+
+}

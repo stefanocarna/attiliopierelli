@@ -1,0 +1,82 @@
+/**
+ * Author: Tim Vervoort - contact@timvervoort.com
+ * Licence: Free for commercial use
+ * Last update: 27th April 2018 - v1.4
+ */
+ 
+.fs-gal-view {
+  display: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-size: contain;
+  background-position: center center;
+  background-color: black;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 999999;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+.fs-gal-view h3 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+  margin: 0;
+  padding: 0;
+  /*height: 50px;*/
+  line-height: 50px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+.fs-gal-prev, .fs-gal-next, .fs-gal-close {
+  position: absolute;
+  top: calc(50vh - 20px);
+  height: 40px;
+  width: 40px;
+  z-index: 999999;
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,1));      
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,1)); 
+  transition: all 0.3s;
+}
+.fs-gal-prev:hover, .fs-gal-next:hover, .fs-gal-close:hover {
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.9));      
+  filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.9)); 
+  cursor: pointer;
+}
+.fs-gal-prev {
+  left: 2em;
+}
+
+.fs-gal-next {
+  right: 2em;
+}
+
+.fs-gal-close {
+  top: 14px;
+  right: 2em;
+  height: 30px;
+  width: 30px;
+}
+
+.fs-gal-main {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+.fs-gal:hover, .fs-gal-nav:hover, .fs-gal-close:hover {
+  cursor: pointer;
+}

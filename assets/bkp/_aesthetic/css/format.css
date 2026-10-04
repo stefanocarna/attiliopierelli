@@ -1,0 +1,64 @@
+#leacril,
+#space-age,
+#hypercube-flex {
+	margin-top: 1.6em;
+}
+
+/* set the position of the img caption */
+/*#leacril .overtext {
+	top: 77%;
+}
+
+#space-age .overtext {
+	top: 80%;
+}
+
+#hypercube-flex .overtext {
+	top: 82%;
+}*/
+
+/* decreasigng the menu font size */
+@media (min-width: 961px) and (max-width: 1200px) {
+	/* this works for all the images into the current html */
+	.r img,
+	.l img {
+		max-width: 25em;
+		max-height: 25em;
+	}
+
+	/* set the size of the img caption */
+	.big .overtext,
+	.landscape .overtext {
+		width: 22em;		
+	}
+
+	.portrait .overtext {
+		width: 16em;
+	}
+
+	/* set the position of the img caption */
+/*	#leacril .overtext,
+	#space-age .overtext {
+		top: 72%;
+	}
+
+	#hypercube-flex .overtext {
+		top: 75%;
+	}
+
+	#img4 .overtext {
+		top: 60%;
+	}*/
+}
+
+
+/* mobile menu */
+@media (max-width: 960px) {
+/*	#leacril .overtext, 
+	#space-age .overtext,
+	#hypercube-flex .overtext {
+		top: inherit;
+		bottom: 0em;
+	}*/
+}
+

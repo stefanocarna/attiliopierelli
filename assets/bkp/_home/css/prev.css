@@ -1,0 +1,92 @@
+.slider-wrap {
+  width: 95%;
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.slider-wrap img{
+  position: absolute;
+  animation: 50s slider infinite;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  height: 100%;
+}
+
+@media (min-width: 400px) {
+  .slider-wrap {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider-wrap {
+    margin-top: 160px;
+  }
+}
+@media (min-width: 992px) {
+  .slider-wrap {
+    margin-top: 110px;
+  }
+}
+@media (min-width: 1200px) {
+  .slider-wrap {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .slider-wrap {
+    margin-top: 60px;
+  }
+}
+
+
+
+@keyframes im-trans {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1; 
+	}
+	20% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#im1 {
+	animation: im-trans 50s infinite;  
+}
+
+#im2 {
+	animation: im-trans 50s infinite;  
+	animation-delay: 10s;
+}
+
+#im3 {
+	animation: im-trans 50s infinite;  
+	animation-delay: 20s;
+}
+
+#im4 {
+	animation: im-trans 50s infinite;  
+	animation-delay: 30s;
+}
+
+#im5 {
+	animation: im-trans 50s infinite;  
+	animation-delay: 40s;
+}
+
